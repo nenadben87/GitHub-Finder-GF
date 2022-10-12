@@ -225,3 +225,62 @@ footer {
     padding-bottom: 2.4rem;
   }
 }
+
+@media(min-width: 1440px){
+  .card-body {
+    margin-bottom: 3.1rem;
+  }
+}
+
+@media(min-width: 1920px){
+  #main-footer {
+    padding-bottom: 4.3rem;
+  }
+}
+
+@media(min-width: 2560px){
+  .navigation {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .navigation nav h1 {
+    font-size: 3rem;
+  }
+
+  .card h2 {
+    font-size: 2rem;
+  }
+
+  .card p {
+    font-size: 1.5rem;
+  }
+
+  .card form input[type="text"] {
+    width: 400px;
+    padding-top: 20px;
+  }
+
+  .card-body {
+    padding-bottom: 3rem;
+  }
+
+  .view-profile-btn a {
+    font-size: 2rem;
+  }
+
+  .badge-1,
+  .badge-2,
+  .badge-3,
+  .badge-4 {
+    font-size: 2rem;
+  }
+
+  .list-items ul li {
+    font-size: 2rem;
+  }
+
+  #main-footer {
+    font-size: 2rem;
+  }
+}

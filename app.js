@@ -7,6 +7,12 @@ function showUsers(e) {
 
   const user = e.target.value;
 
+  const width = document.body.clientWidth;
+
+if(width >= 2560){
+  user.style.fontSize = '1.5rem';
+}
+
   const xhr = new XMLHttpRequest();
 
   xhr.open('GET',`https://api.github.com/users/${user}`,true)
@@ -51,3 +57,4 @@ function showUsers(e) {
 
   xhr.send();
 }
+
